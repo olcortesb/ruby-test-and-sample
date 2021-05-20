@@ -12,11 +12,9 @@ puts ARGV[1]
 
 API = ARGV[1].to_i == 1 ? API_1 : API_2
 
-
 payload = { device: 1, status: 1, message: ARGV[0] }
 response = RestClient.post API, payload.to_json, {content_type: :json, accept: :json}
 
 puts API
-puts response.code 
+puts response.code
 puts response.body
-

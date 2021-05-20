@@ -1,3 +1,4 @@
 {
-    "ruby.rubocop.configFilePath": "/Users/olcortesb/workspace/ruby-test-and-sample/ruby-test/.ruboco.yml"
+    "ruby.rubocop.configFilePath": "/Users/olcortesb/workspace/ruby-test-and-sample/ruby-test/.ruboco.yml",
+    "terminal.integrated.fontSize": 11
 }
